@@ -131,9 +131,8 @@ button {
     height: 32px;
     position:absolute;
     border-radius: 3px;
-    margin: 500px 4000px;
-    margin-top: 780px;
-    margin-left: 4880px;
+    bottom: 95px;
+    left: 100px;
 
 }
 .instagramm{
