@@ -11,10 +11,10 @@ body {
 }
 
 .img-celular {
-    width: 620px;
-    height: 850px;
-    margin-left: 270px;
-    margin-top: 250px;
+    width: 500px;
+    height: 650px;
+    margin-left: 200px;
+    margin-top: 25px;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
     height: 450px;
     z-index: auto;
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 900px;
     margin-bottom: 280px;
     margin-right: 2px;
     margin-top: 250px;
@@ -90,12 +90,12 @@ button {
 }
 
 .img-insta {
-    height: 730px;
+    height: 562px;
     position: absolute;
-    left: 475px;
-    top: 285px;
+    left: 362px;
+    top: 49px;
     transition: 2s ease-in-out;
-    width: 335px;
+    width: 279px;
 }
 
 .cadastro {
@@ -113,7 +113,7 @@ button {
     block-size: auto;
     z-index: auto;
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 998px;
     margin-top: 400px;
     margin-right: 100px;
     text-align: center;
@@ -165,7 +165,7 @@ button {
     block-size: auto;
     z-index: auto;
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 998px;
     margin-top: 550px;
     margin-right: 100px;
     text-align: center;
