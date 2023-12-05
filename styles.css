@@ -204,3 +204,12 @@ button {
 opacity: 0;
 
 }
+
+video{
+    width: 326px;
+    height: 571px;
+    position: absolute;
+    left: 339px;
+    top: 47px;
+    border-radius: 69px;
+}
