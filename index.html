@@ -1,3 +1,8 @@
+,
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,6 +12,7 @@
     <link rel="icon" type="image/x-icon" href="img/instagram-icone-icon.png">
     <title>Instagram</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 
 
@@ -20,13 +26,11 @@
     <div class="imagens">
 
         <img src="img/celular.png" class="img-celular">
-        <img src="img/insta1.png" class="img-insta">
-        <img src="img/insta2.png" class="img-insta img-2">
+        <video src="IinShot_20231204_214138689.mp4" autoplay muted loop></video>
 
 
     </div>
-
-
+<div class="caixa-branca">
     <div class="container">
         
         <i class="instagramm" data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
@@ -37,15 +41,17 @@
 
         <button>Entrar</button>
         <a class="OU">________________ OU ________________</a>
-        <div class="face-logo"> </div>
+       <div class="face-logo"></div>
         <a class="facebook">Entrar com Facebook</a>
         <a class="esqueceu-senha">Esqueceu a senha ?</a>
-
+        <i class="instagramm" data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
+           
+        style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png&quot;); background-position: 0px -52px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i>
 
 
 
     </div>
-
+ 
     <div class="cadastro">
 
         <a>Não tem uma conta? <span>Cadastre-se</span></a>
@@ -64,8 +70,8 @@
 
 
 
-
-    
+ 
+   
 
 
     </div>
@@ -73,32 +79,19 @@
 
 
     <div>
-        <img src="img/googleplay.png" class="google">
-        <img src="img/microsoft.png" class="microsoft">
+        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US" target="_blank">
+        <img src="img/googleplay.png"class="google"></a>
+        
+        <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1366%2C728" target="_blank">
+        <img src="img/microsoft.png" class="microsoft"></a>
 
     </div>
 
-
+</div>
 
 </body>
 
-<script>
 
-    let imagem = document.querySelector(".img-2")
-
-    setInterval(() => {
-
-        if (imagem.style.opacity == 0) {
-            imagem.style.opacity = 1
-        } else {
-            imagem.style.opacity = 0
-        }
-
-    }, 4000)
-
-    imagem.style.opacity = 1
-
-</script>
 
 
 </html>
